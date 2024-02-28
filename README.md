@@ -287,7 +287,7 @@ In summary, links are essential for navigating the web and connecting different 
 
 ---
 
-image format:
+### image format
 
 1. **PNG (Portable Network Graphics)**:
 
@@ -309,6 +309,8 @@ image format:
 
 In summary, PNG is best for graphics with sharp edges and transparency, JPG is ideal for photos and images with no transparency, while SVG is great for scalable and interactive graphics.
 
+### names of image formats
+
 The names of image formats like PNG, JPG/JPEG, and SVG may seem unfamiliar or "weird" at first, but they actually have logical explanations behind them:
 
 1. **PNG (Portable Network Graphics)**:
@@ -326,3 +328,30 @@ The names of image formats like PNG, JPG/JPEG, and SVG may seem unfamiliar or "w
    - **Vector Graphics**: The "Vector Graphics" part of the name emphasizes the format's use of geometric shapes (vectors) to represent images, allowing for smooth scalability and efficient representation of graphics.
 
 While the names of these image formats may seem arbitrary or technical, they actually provide insights into their purpose, development history, and key features. Understanding the meaning behind the names can help demystify these image formats and provide context for their usage in digital media.
+
+### 'alt` attribute
+
+The purpose of the `alt` attribute in an image element (`<img>`) is to provide alternative text that describes the content or function of the image. The `alt` attribute serves several important purposes:
+
+1. **Accessibility**: The primary purpose of the `alt` attribute is to improve web accessibility for users who may not be able to see the image. Screen reader software used by visually impaired users will read out the content of the `alt` attribute, allowing them to understand the context and meaning of the image.
+
+2. **Fallback Content**: If an image fails to load for any reason (slow internet connection, broken link, etc.), the text provided in the `alt` attribute will be displayed in place of the image. This ensures that users still receive relevant information even if the image cannot be displayed.
+
+3. **SEO (Search Engine Optimization)**: Search engines use the `alt` attribute to understand the content and context of images on a webpage. Providing descriptive and relevant text in the `alt` attribute can improve the accessibility and search engine ranking of your webpage.
+
+4. **Contextual Information**: The `alt` attribute allows you to provide additional context or information about the image that may not be apparent from the visual content alone. This can be especially useful for images that convey important information or serve a specific function within the webpage.
+
+When writing the `alt` attribute for an image, it's important to follow these best practices:
+
+- Be descriptive: Provide a concise and accurate description of the image content or function.
+- Avoid redundancy: Don't repeat information that is already present in the surrounding text or other nearby images.
+- Keep it relevant: Focus on the most important aspects of the image that convey its purpose or meaning.
+- Use keywords: Incorporate relevant keywords that help improve the image's SEO value and relevance to the webpage content.
+
+Here's an example of how the `alt` attribute is used in an image element:
+
+```html
+<img src="example.jpg" alt="A red apple on a wooden table" />
+```
+
+In this example, the `alt` attribute describes the content of the image, which is a red apple on a wooden table.
