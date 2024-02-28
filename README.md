@@ -355,3 +355,38 @@ Here's an example of how the `alt` attribute is used in an image element:
 ```
 
 In this example, the `alt` attribute describes the content of the image, which is a red apple on a wooden table.
+
+### Resources for 👉 Illustrations (like images, videos, icons)
+
+1. Free images, photos, and videos
+
+   - [unsplash](https://unsplash.com/)
+   - [Pexels](https://www.pexels.com/)
+   - [Gratisography](https://gratisography.com/)
+   - [Undraw](https://undraw.co/)
+   - [DrawKit](https://www.drawkit.com/)
+   - [freepik](https://www.freepik.com/)
+   - [Pixabay](https://pixabay.com/)
+   - [placeholder-image-generator](https://placeholderimage.dev/)
+
+2. Free animated, static spinners, progress bar, backgrounds
+
+   - [Loading.io](http://loading.io)
+   - [LottieFiles](https://lottiefiles.com/)
+
+3. rich resources containing different icons
+
+   - [font-awesome](https://fontawesome.com)
+   - [Ionicons](https://ionic.io/ionicons)
+   - [icons8](https://icons8.com/)
+   - [Icones](https://icones.js.org/)
+   - [flaticon](https://www.flaticon.com/)
+   - [IcoFont](https://icofont.com/home)
+
+4. Tools
+   - [tinypng.com](https://tinypng.com/) to reduce file size of raster graphics files like PNG, JPG, GIF, SVG
+   - [Remove-bg](https://www.remove.bg/) — An AI tool to help remove the background of an image
+   - [Clippy](https://bennettfeely.com/clippy/) — Create complex shapes in CSS using clip-path property
+   - [Web-Code-Tools](https://webcode.tools/) — One Platform with many solutions. Generates box shadows, gradients, meta tags, elements, etc.
+   - [Haikei](https://haikei.app/) — Generates unique SVG design assets
+   - [Transform](https://transform.tools/) — A polyglot web converter
