@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Learning HTML List types" />
+    <meta name="author" content="Hossain kabir" />
+    <title>Semantic tags</title>
+
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>My Goals For Year</h1>
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#html">HTML</a></li>
+          <li><a href="#vacation">VACATION</a></li>
+          <li><a href="#reading">READING</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <article id="html">
+        <h2>I am ready to learn HTML</h2>
+        <p>This is my first web page</p>
+
+        <section>
+          <h3>HTML5</h3>
+          <img
+            src="../images/favicon.ico"
+            alt="html5 code"
+            title="HTML5 Code Image"
+            width="100"
+            height="100"
+          />
+
+          <figure>
+            <figcaption>Sample Example of HTML code</figcaption>
+            <code> &lt;h1&gt; Hello World! &lt;/h1&gt; </code>
+          </figure>
+        </section>
+
+        <section>
+          <h3>My daily schedule</h3>
+          <p>Let me tell you how:</p>
+          <ol>
+            <li><p>I learn more about web dev</p></li>
+            <li><p>I plan out my schedule</p></li>
+            <li>
+              <p>
+                I use resources from
+                <abbr title="Mozilla Developer Network">
+                  <a href="https://developer.mozilla.org" target="_blank">
+                    MDN
+                  </a>
+                </abbr>
+              </p>
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary>
+                Guess the <mark>number of hours</mark> I code per day?
+              </summary>
+
+              I start at <time datetime="05:00">5 a.m</time> and write code for
+              <time datetime="PT7H">7 hrs</time> every morning
+            </details>
+          </aside>
+        </section>
+      </article>
+
+      <hr />
+
+      <article id="vacation">
+        <h2>I am also planning a vacation</h2>
+        <p>I have been working hard and <em>really need a getaway.</em></p>
+        <p>I live in <abbr title="kansas">KS</abbr> so I want visit a beach</p>
+
+        <section>
+          <h3>Places I'd like to visit</h3>
+
+          <ul>
+            <li>
+              <p>I've heard good things about the Caribbean🌊</p>
+              <figure>
+                <img
+                  src="../images/puertoRico.jpg"
+                  alt="Caribbean🌊 beach"
+                  title="Puerto Rico Island"
+                  width="500"
+                  height="300"
+                  loading="lazy"
+                />
+                <figcaption>Puerto Rico Island</figcaption>
+              </figure>
+            </li>
+
+            <li>
+              <p>I've heard good things about going here:</p>
+              <address>
+                <p>Margaritaville Island Reserve Riviera Cancun</p>
+                <figure>
+                  <img
+                    src="../images/vacation.jpg"
+                    alt="Cancun Vacation image"
+                    title="Margaritaville Island Resort"
+                    width="500"
+                    height="300"
+                    loading="lazy"
+                  />
+                  <figcaption>Margaritaville Island Resort</figcaption>
+                </figure>
+              </address>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <!-- TODO: Add More Places  -->
+          <h3>Places I want to avoid</h3>
+          <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this <strong>cold!</strong></dd>
+
+            <dt>South Pole</dt>
+            <dd>This is also <strong>cold!</strong></dd>
+
+            <dt>Mountain Tops</dt>
+            <dd>These are also <strong>cold!</strong></dd>
+          </dl>
+        </section>
+      </article>
+
+      <hr />
+
+      <article id="reading">
+        <h2>I am planning to read some books this year</h2>
+
+        <section>
+          <h3>The books i want to read:</h3>
+          <ul>
+            <li>
+              <a href="">
+                A First Course in Database Systems by J.H. Heap &amp;
+                J.F.McGeoch
+              </a>
+            </li>
+            <li>
+              <a href="">
+                A First Course in Database Systems by J.H. Heap &amp; J.F.
+                McGEOCH
+              </a>
+            </li>
+
+            <li>
+              <a href=""> On Writing Well by William Zinsser </a>
+            </li>
+            <li>
+              <a href="">
+                The Elements of Style by William Strunk Jr.&amp; E.B. White
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </main>
+    <hr />
+
+    <footer>
+      <p>
+        &lt;&lt;&lt;<a href="about.html">Hossain Kabir</a> &copy;2024
+        &gt;&gt;&gt;
+      </p>
+
+      <p><a href="#">Back to Top</a>🔝</p>
+    </footer>
+  </body>
+</html>

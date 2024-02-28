@@ -1,5 +1,7 @@
 # HTML
 
+---
+
 ## 1. What is HTML?
 
 -> HTML is a acronym of HyperText Markup Language. It is the standard markup language for creating web pages.
@@ -8,9 +10,9 @@ HyperText refers to links that connect web pages to one another, either a single
 
 HTML uses Markup to annotate text, images and other contents for display in a web browser
 
-## Lesson-1-HTML Structure
-
 ---
+
+## Lesson-1-HTML Structure
 
 what is tag and element?
 
@@ -102,8 +104,6 @@ This basic structure outlines the essential components of an HTML document. It p
 
 ## Lesson-2-Text Basics
 
----
-
 In HTML and CSS, elements are classified into two main categories based on how they behave in the document flow: block-level elements and inline-level elements. Understanding these categories is crucial for controlling the layout and structure of a webpage.
 
 ### Block-Level Elements:-
@@ -175,9 +175,9 @@ This would render as:
 
 HTML entities provide a way to include special characters and symbols in HTML documents without causing syntax errors or misinterpretations by the browser.
 
-## Lesson-3-List Types
-
 ---
+
+## Lesson-3-List Types
 
 In HTML, there are several types of lists that you can use to organize and structure content. The main types of lists are:
 
@@ -245,9 +245,9 @@ In HTML, there are several types of lists that you can use to organize and struc
 
 These are the main types of lists in HTML. You can use them to organize and structure content in various ways, depending on the requirements of your webpage. Additionally, you can style the appearance of lists using CSS to achieve the desired visual presentation.
 
-## Lesson-4-Adding Links
-
 ---
+
+## Lesson-4-Adding Links
 
 In HTML, a link is an element that allows users to navigate between different webpages or resources. Links are created using the `<a>` (anchor) element and are one of the fundamental components of the web. Here's a discussion of links in HTML:
 
@@ -283,9 +283,9 @@ In HTML, a link is an element that allows users to navigate between different we
 
 In summary, links are essential for navigating the web and connecting different webpages and resources. By using the `<a>` element with appropriate attributes and link text, you can create effective and accessible links within your HTML documents.
 
-## Lesson-5-Images
-
 ---
+
+## Lesson-5-Images
 
 ### image format
 
@@ -390,3 +390,9 @@ In this example, the `alt` attribute describes the content of the image, which i
    - [Web-Code-Tools](https://webcode.tools/) — One Platform with many solutions. Generates box shadows, gradients, meta tags, elements, etc.
    - [Haikei](https://haikei.app/) — Generates unique SVG design assets
    - [Transform](https://transform.tools/) — A polyglot web converter
+
+---
+
+## Lesson-6-Semantic Layout
+
+Semantic tags or semantic layout in HTML refers to the use of HTML elements that convey meaning about the content they contain. These elements provide context and structure to the content, making it more understandable for both humans and machines (such as search engines and assistive technologies). Semantic HTML helps define the purpose and role of different sections of a webpage, improving accessibility, search engine optimization (SEO), and maintainability.
