@@ -396,3 +396,96 @@ In this example, the `alt` attribute describes the content of the image, which i
 ## Lesson-6-Semantic Layout
 
 Semantic tags or semantic layout in HTML refers to the use of HTML elements that convey meaning about the content they contain. These elements provide context and structure to the content, making it more understandable for both humans and machines (such as search engines and assistive technologies). Semantic HTML helps define the purpose and role of different sections of a webpage, improving accessibility, search engine optimization (SEO), and maintainability.
+
+here is a list of semantic HTML elements:
+
+1. `<header>`: Represents a group of introductory or navigational aids.
+
+2. `<nav>`: Defines a section containing navigation links.
+
+3. `<main>`: Represents the main content of the document.
+
+4. `<article>`: Represents an independent piece of content that can be reused and distributed.
+
+5. `<section>`: Defines a thematic grouping of content, typically with a heading.
+
+6. `<aside>`: Represents content that is tangentially related to the content around it, often represented as a sidebar.
+
+7. `<footer>`: Defines a footer for a document or section, typically containing metadata, copyright information, or contact details.
+
+8. `<address>`: Represents contact information for the author or owner of the document.
+
+9. `<figure>`: Represents self-contained content, such as images, diagrams, illustrations, or code snippets, often with a caption (`<figcaption>`).
+
+10. `<figcaption>`: Represents the caption or description of a `<figure>` element.
+
+11. `<details>`: Represents a disclosure widget from which the user can obtain additional information or controls.
+
+12. `<summary>`: Represents a summary or label for the content of a `<details>` element.
+
+These semantic elements provide meaning and structure to the content of your HTML documents, making them more accessible, understandable, and maintainable. Using semantic elements appropriately helps improve search engine optimization (SEO) and enhances the overall user experience.
+
+---
+
+## Lesson-7-HTML Tables
+
+HTML5 tables are used to organize and display data in rows and columns on a webpage. They provide a structured way to present tabular data, making it easier for users to understand and interpret information. Here's a discussion of HTML5 tables:
+
+1. **Table Structure**:
+   - A table in HTML5 is defined using the `<table>` element.
+   - The table consists of rows (`<tr>`) and columns (`<td>` for regular cells, `<th>` for header cells).
+   - Each row (`<tr>`) contains one or more cells (`<td>` or `<th>`), which are arranged in columns.
+
+2. **Headers**:
+   - Header cells (`<th>`) are used to define column or row headers.
+   - Column headers are typically placed in the first row (`<tr>`) of the table or within a `<thead>` section.
+   - Row headers are often placed in the first column of the table or within a `<th>` element with the `scope="row"` attribute.
+
+3. **Body and Footer**:
+   - The main content of the table is placed within the body (`<tbody>`) of the table.
+   - If there is a footer section with summary or totals, it can be placed within a `<tfoot>` element.
+
+4. **Cell Alignment and Styling**:
+   - Cells in a table can be aligned horizontally (`align="left"`, `align="center"`, `align="right"`) and vertically (`valign="top"`, `valign="middle"`, `valign="bottom"`).
+   - CSS can be used to style various aspects of the table, including borders, background colors, fonts, and spacing.
+
+5. **Accessibility**:
+   - Tables should be structured in a way that is accessible to all users, including those using screen readers.
+   - Semantic HTML5 elements like `<th>`, `<thead>`, `<tbody>`, and `<tfoot>` help improve accessibility by providing structure and context to the table.
+
+6. **Responsive Design**:
+   - Tables can be made responsive by using CSS techniques such as media queries, flexible widths, or horizontal scrolling for smaller screens.
+   - Responsive tables ensure that the table content remains accessible and readable on devices with different screen sizes.
+
+7. **Data Attributes**:
+   - HTML5 allows the use of custom data attributes (prefixed with `data-`) to attach additional information to table elements, which can be useful for scripting or styling purposes.
+
+In summary, HTML5 tables are a powerful tool for organizing and presenting tabular data on the web. When used appropriately and with consideration for accessibility and responsiveness, tables can enhance the usability and effectiveness of a webpage.
+
+---
+
+## Lesson-8- Forms and inputs
+
+### `GET` and `POST` methods in forms
+
+1. **GET Method**:
+   - When a form is submitted using the `GET` method, the form data is appended to the URL in the form of a query string.
+   - The data is visible to users in the URL, which means that it's not suitable for sensitive information like passwords.
+   - GET requests can be bookmarked, refreshed, and shared, making them useful for search queries or navigating to specific pages.
+   - It's typically used for fetching data from the server, such as searching for information or retrieving a webpage.
+
+2. **POST Method**:
+   - When a form is submitted using the `POST` method, the form data is sent in the body of the HTTP request.
+   - The data is not visible in the URL, which means it's more secure and suitable for sensitive information.
+   - POST requests cannot be bookmarked or shared directly, and they do not affect browser history when refreshed or navigated away from.
+   - It's typically used for submitting data to the server, such as submitting a login form or uploading a file.
+
+In simpler terms:
+
+- **GET**: Think of it like asking for directions to a place by saying it out loud. Everyone nearby can hear and see where you're going.
+
+- **POST**: Think of it like writing down your destination on a piece of paper and handing it directly to someone. It's private and not visible to everyone around.
+
+In summary, `GET` is used for fetching data and `POST` is used for submitting data. `GET` appends data to the URL, making it visible, while `POST` sends data in the request body, keeping it hidden. Use `GET` for fetching information and `POST` for sending sensitive or larger amounts of data.
+
+---
