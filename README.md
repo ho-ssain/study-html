@@ -432,28 +432,34 @@ These semantic elements provide meaning and structure to the content of your HTM
 HTML5 tables are used to organize and display data in rows and columns on a webpage. They provide a structured way to present tabular data, making it easier for users to understand and interpret information. Here's a discussion of HTML5 tables:
 
 1. **Table Structure**:
+
    - A table in HTML5 is defined using the `<table>` element.
    - The table consists of rows (`<tr>`) and columns (`<td>` for regular cells, `<th>` for header cells).
    - Each row (`<tr>`) contains one or more cells (`<td>` or `<th>`), which are arranged in columns.
 
 2. **Headers**:
+
    - Header cells (`<th>`) are used to define column or row headers.
    - Column headers are typically placed in the first row (`<tr>`) of the table or within a `<thead>` section.
    - Row headers are often placed in the first column of the table or within a `<th>` element with the `scope="row"` attribute.
 
 3. **Body and Footer**:
+
    - The main content of the table is placed within the body (`<tbody>`) of the table.
    - If there is a footer section with summary or totals, it can be placed within a `<tfoot>` element.
 
 4. **Cell Alignment and Styling**:
+
    - Cells in a table can be aligned horizontally (`align="left"`, `align="center"`, `align="right"`) and vertically (`valign="top"`, `valign="middle"`, `valign="bottom"`).
    - CSS can be used to style various aspects of the table, including borders, background colors, fonts, and spacing.
 
 5. **Accessibility**:
+
    - Tables should be structured in a way that is accessible to all users, including those using screen readers.
    - Semantic HTML5 elements like `<th>`, `<thead>`, `<tbody>`, and `<tfoot>` help improve accessibility by providing structure and context to the table.
 
 6. **Responsive Design**:
+
    - Tables can be made responsive by using CSS techniques such as media queries, flexible widths, or horizontal scrolling for smaller screens.
    - Responsive tables ensure that the table content remains accessible and readable on devices with different screen sizes.
 
@@ -469,6 +475,7 @@ In summary, HTML5 tables are a powerful tool for organizing and presenting tabul
 ### `GET` and `POST` methods in forms
 
 1. **GET Method**:
+
    - When a form is submitted using the `GET` method, the form data is appended to the URL in the form of a query string.
    - The data is visible to users in the URL, which means that it's not suitable for sensitive information like passwords.
    - GET requests can be bookmarked, refreshed, and shared, making them useful for search queries or navigating to specific pages.
@@ -487,5 +494,25 @@ In simpler terms:
 - **POST**: Think of it like writing down your destination on a piece of paper and handing it directly to someone. It's private and not visible to everyone around.
 
 In summary, `GET` is used for fetching data and `POST` is used for submitting data. `GET` appends data to the URL, making it visible, while `POST` sends data in the request body, keeping it hidden. Use `GET` for fetching information and `POST` for sending sensitive or larger amounts of data.
+
+`https://httpbin.org` is a website that provides various HTTP request and response related services for testing and debugging purposes. It's a simple HTTP request and response service that allows you to test different aspects of HTTP requests and inspect the corresponding responses.
+
+Some of the features provided by httpbin.org include:
+
+1. **HTTP Methods**: You can send HTTP requests using different methods like GET, POST, PUT, DELETE, etc., and httpbin.org will respond accordingly.
+
+2. **Request Inspection**: It allows you to inspect the details of the HTTP request you send, such as headers, query parameters, form data, etc.
+
+3. **Response Formats**: You can specify the format in which you want the response (JSON, XML, HTML, etc.).
+
+4. **Status Codes**: You can test how httpbin.org responds to different HTTP status codes.
+
+5. **Authentication**: It supports various types of authentication methods, including Basic Auth and Digest Auth.
+
+6. **Redirects**: You can test how httpbin.org handles HTTP redirects.
+
+7. **IP Address and User-Agent**: You can check how httpbin.org sees your IP address and User-Agent header.
+
+Overall, httpbin.org is a useful tool for developers to test and debug their HTTP client implementations, APIs, and web applications. It's commonly used for experimenting with HTTP requests and responses in a controlled environment.
 
 ---
