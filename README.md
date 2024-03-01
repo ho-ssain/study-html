@@ -2,7 +2,7 @@
 
 ---
 
-## 1. What is HTML?
+## What is HTML?
 
 -> HTML is a acronym of HyperText Markup Language. It is the standard markup language for creating web pages.
 
@@ -368,6 +368,7 @@ In this example, the `alt` attribute describes the content of the image, which i
    - [freepik](https://www.freepik.com/)
    - [Pixabay](https://pixabay.com/)
    - [placeholder-image-generator](https://placeholderimage.dev/)
+   - [/emojipedia](https://emojipedia.org/check-mark-button)
 
 2. Free animated, static spinners, progress bar, backgrounds
 
@@ -470,7 +471,7 @@ In summary, HTML5 tables are a powerful tool for organizing and presenting tabul
 
 ---
 
-## Lesson-8- Forms and inputs
+## Lesson-8-Forms and inputs
 
 ### `GET` and `POST` methods in forms
 
@@ -516,3 +517,5 @@ Some of the features provided by httpbin.org include:
 Overall, httpbin.org is a useful tool for developers to test and debug their HTTP client implementations, APIs, and web applications. It's commonly used for experimenting with HTTP requests and responses in a controlled environment.
 
 ---
+
+## Lesson-9-Project
